@@ -1,0 +1,8 @@
+CREATE TABLE pacientes (
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    nombre VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    documento VARCHAR(6) NOT NULL UNIQUE,
+
+    PRIMARY KEY (id)
+);
